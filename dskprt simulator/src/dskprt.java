@@ -1,8 +1,10 @@
+import java.io.IOException;
 import java.util.Scanner;
 
+
 public class dskprt {
-	public static void main(String args[ ]) throws InterruptedException {
-	welcome welcomemsg = new welcome();
+	public static void main(String args[ ]) throws InterruptedException, IOException {
+		welcome welcomemsg = new welcome();
 	double points = 0;
 	while(5 > 3) {
 		welcomemsg.hellos();
@@ -44,6 +46,17 @@ public class dskprt {
 				points -= 10;
 				Thread.sleep(3000);
 				break;
+		case 4:
+				if(points > 500) {
+					System.out.println("you became hot anime girl and finished the game!!!");
+					Thread.sleep(5000);
+					System.exit(0);
+				}
+				else{
+					System.out.println("Not enough points!");
+					Thread.sleep(5000);
+					continue;
+				}
 		default:
 				System.out.println("type out something valid, silly");
 				Thread.sleep(3000);

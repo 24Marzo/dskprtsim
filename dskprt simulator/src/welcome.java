@@ -1,6 +1,8 @@
+import java.io.IOException;
 
 public class welcome {
-	void hellos()  throws InterruptedException {
+	void hellos()  throws InterruptedException, IOException {
+		Runtime.getRuntime().exec("cls");
 		System.out.println("Hello welcome to dskprt simulator. Choose what you will do: \n");
 		System.out.println("1. Change profile pic");
 		System.out.println("2. Go out");
