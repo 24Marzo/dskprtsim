@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class dskprt {
 	public static void main(String args[ ]) throws InterruptedException, IOException {
+		System.out.println("\033[0;36m");
 		welcome welcomemsg = new welcome();
 	double points = 0;
 	while(5 > 3) {
