@@ -3,7 +3,7 @@ import java.io.IOException;
 public class welcome {
 	void hellos()  throws InterruptedException, IOException {
 
-		System.out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
+		System.out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"); // this is so bad why didnt the escape code thing work
 		System.out.println("Hello welcome to dskprt simulator. Choose what you will do: \n");
 		System.out.println("1. Change profile pic");
 		System.out.println("2. Go out");
